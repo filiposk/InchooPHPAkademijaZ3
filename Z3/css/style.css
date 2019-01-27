@@ -1,0 +1,90 @@
+
+#wrapper {
+    background-color: black;
+    height: 500px;
+    width: 1000px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    position: fixed;
+}
+#panel {
+    height: 500px;
+    width: 1000px;
+    color: #3f3f41;
+    border-radius: 10px;
+    background-color: #3f3f41;
+    position: fixed;
+}
+.table {
+    display: table;
+    height: 400px;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    position: fixed;
+    padding: 2px;
+    top: 8px;
+    right: 800px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+td{
+    border: 2px solid white;
+    border-radius: 5px;
+    width:20px;
+    height:20px;
+}
+#form{
+    width: auto;
+    height: auto;
+    margin-bottom: 25px;
+}
+#input {
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #535355;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding: 5px;
+
+
+}
+#button{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 10px;
+}
+#p1{
+
+    color: darkgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+#p2{
+    color: darkgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+.vertical-text {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+}
